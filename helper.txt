@@ -1,0 +1,24 @@
+How to Run
+
+Install dependencies
+
+pip install flask pandas sqlalchemy openpyxl
+
+
+Create database first
+
+python create_db.py
+
+
+Run the Flask app
+
+python app.py
+
+
+Test your APIs
+
+Excel data → http://127.0.0.1:5000/api/xlsx
+
+SQL data → http://127.0.0.1:5000/api/sql
+
+Filtered → http://127.0.0.1:5000/api/sales?source=sql&product=Banana
